@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "9bTUNbgt3yO5mqzep",
+      });
+   })();
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ephesis&family=Playwrite+AU+SA:wght@100..400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="maincontainer">
+        <div class="subcontainer">
+            <h1>Contact Foam</h1>
+            <label for="username">
+                Full Name: <input type="text" id="username" required>
+            </label>
+            <br>
+            <br>
+            <label for="email">
+                Email: <input type="email" id="email" required>
+            </label>
+            <br>
+            <br>
+            <label for="password">
+                Password : <input type="password" id="password" required>
+            </label>
+            <br>
+            <br>
+            <label for="message">
+                Message : <textarea name="message" id="message"></textarea required>
+        </label>
+        <br>
+        <br>
+        <button onclick="">Submit</button>
+    </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
